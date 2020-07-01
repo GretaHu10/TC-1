@@ -34,6 +34,21 @@
 
 }
 
+@keyframes abc {
+	0% {
+	transform:rotate(0);
+	
+}
+50% {
+	transform:rotate(900deg);
+	
+}
+100% {
+	transform:rotate(1800deg)
+}
+}
+
+
 @media(max-width:500px) {
     #html {
         height: 60vh;

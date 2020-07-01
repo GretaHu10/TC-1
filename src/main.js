@@ -36,7 +36,6 @@ let string = `/* 你好，打个招呼，认识一下
     transform: translateX(-50%);
     background: white;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%);
 }
 
 #div1::after {
@@ -48,9 +47,21 @@ let string = `/* 你好，打个招呼，认识一下
     transform: translateX(-50%);
     background: black;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 25%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 100%);
+}
+/* 画鱼点睛
+ */
+#div1::before {
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%);
 }
 
+#div1::after {
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 25%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 100%);
+}
+/* 旋转起来吧
+ */
+#div1{
+    animation: abc 10s linear infinite;
+}
 `;
 let string2 = "";
 
