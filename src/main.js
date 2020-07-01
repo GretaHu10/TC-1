@@ -60,7 +60,7 @@ let string = `/* 你好，打个招呼，认识一下
 /* 旋转起来吧
  */
 #div1{
-    animation: abc 10s linear infinite;
+    animation: abc 2s linear infinite;
 }
 `;
 let string2 = "";
